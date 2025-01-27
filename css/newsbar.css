@@ -1,0 +1,103 @@
+/*
+	jBar v2.0.0
+	URL: www.toddmotto.com
+*/
+
+.newsbar_container {
+    background: #063c61;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/*------------------------------------*\
+    jBar
+\*------------------------------------*/
+
+/************************************/
+
+.arrow_header {
+    position: relative;
+    background: #063c61;
+}
+
+.arrow_header:after {
+    left: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(136, 183, 213, 0);
+    border-left-color: #063c61;
+    border-width: 10px;
+    margin-top: -10px;
+}
+
+.newsCss {
+    color: #fff;
+    height: 48px;
+    line-height: 48px;
+    padding-left: 30px;
+}
+
+.news-header {
+    background: #063c61;
+    border-radius: 0 10px 10px 0;
+    color: #f57f21;
+    display: block;
+    font-size: 1.2em;
+    font-weight: 600;
+    height: 48px;
+    line-height: 48px;
+    padding-bottom: 1.1px;
+    text-align: center;
+}
+
+.newsbar {
+    background: #065c97;
+}
+
+.newsbar button {
+    background: #043354 !important;
+    border: 0 none;
+    color: #fff;
+    height: 48px;
+    transition: all 0.5s ease-in-out 0s;
+    width: 48px;
+    border-radius: 0 !important;
+}
+
+.newsbar button:hover {
+    background: #084c7a !important;
+    /*color:#f57f21 !important;*/
+}
+
+.newsbar .newsController button:hover {
+    background: #f57f21 !important;
+}
+
+.ButtonsNews {
+    background: #063c61;
+}
+
+.news-item {
+    color: #FFF;
+}
+
+.NewsLink {
+    color: #FFF;
+    text-decoration: none !important;
+}
+
+.NewsLink span {
+    color: #619fca;
+    font-weight: 600;
+}
+
+.NewsLink:hover {
+    color: #f57f21;
+    text-decoration: none !important;
+}

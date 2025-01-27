@@ -1,0 +1,329 @@
+/*.content {
+    width: 650px!important;
+    margin: 0 auto!important;
+    padding-top: 100px!important;
+}
+
+span {
+    color: dimgray!important;
+}*/
+
+.pop-up {
+    position: fixed !important;
+    /* margin: 5% auto!important;*/
+    left: 0 !important;
+    right: 0 !important;
+    z-index: 10000 !important;
+    /*width:100%!important;*/
+    height: 100% !important;
+    top: 0;
+    background: rgba(0, 0, 0, 0.8) !important;
+}
+
+.pop-up_img {
+    padding: 10px !important;
+    margin: 10px !important;
+    height: 280px !important;
+    overflow: hidden !important;
+}
+
+.pop-up_img img {
+    width: 100% !important;
+}
+
+.pop-up_p {
+    margin: 10px !important;
+}
+
+.box {
+    background-color: whitesmoke !important;
+    text-align: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 5% !important;
+    position: relative !important;
+    -webkit-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.1) !important;
+    -moz-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.1) !important;
+    box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.1) !important;
+    width: 50% !important;
+    padding-bottom: 10px !important;
+}
+
+.close-button {
+    transition: all 0.5s ease !important;
+    position: absolute !important;
+    background-color: #f57f21 !important;
+    padding: 1.5px 7px !important;
+    left: 0 !important;
+    margin-left: -10px !important;
+    margin-top: -9px !important;
+    border-radius: 50% !important;
+    border: 2px solid #fff !important;
+    text-decoration: none !important;
+    color: white !important;
+    -webkit-box-shadow: -4px -2px 6px 0px rgba(0, 0, 0, 0.1) !important;
+    -moz-box-shadow: -4px -2px 6px 0px rgba(0, 0, 0, 0.1) !important;
+    box-shadow: -3px 1px 6px 0px rgba(0, 0, 0, 0.1) !important;
+}
+
+.close-button:hover {
+    background-color: tomato !important;
+    color: #fff !important;
+}
+
+.title_popup {
+    text-align: center !important;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    color: #fff !important;
+    background-color: rgba(5, 73, 120, 0.95) !important;
+    font-size: 16px !important;
+    font-weight: bold !important;
+}
+
+.bold {
+    font-weight: 700;
+    color: #f57f21;
+}
+
+@media screen and (max-width: 991px) {
+    .popupcircle {
+        display: none !important;
+    }
+    .pop-up_img {
+        height: auto !important;
+    }
+    .box {
+        width: 75% !important;
+    }
+    .title_popup {
+        padding: 15px !important;
+    }
+    /************/
+    .title_popup3 {
+        overflow: hidden;
+    }
+    .box3 {
+        width: 80% !important;
+    }
+    .pop-up_img3 {
+        height: auto !important;
+    }
+}
+
+/***************** pop-up2 ********************/
+
+.arrow_box {
+    position: relative;
+    background: rgba(5, 73, 120, 0.95);
+}
+
+.arrow_box:after {
+    top: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(136, 183, 213, 0);
+    border-top-color: rgba(5, 73, 120, 0.95);
+    border-width: 16px;
+    margin-left: -16px;
+}
+
+.pop-up_img2 span {
+    margin-top: 116px !important;
+}
+
+.pop-up_img2 span i {
+    font-size: 30px;
+}
+
+.pop-up_img2 {
+    margin: 10px 0 10px !important;
+    padding: 0px !important;
+}
+
+.pop-up_img2 a {
+    margin-bottom: 0 !important;
+}
+
+.pop-up_img2 img {
+    width: 100% !important;
+}
+
+.pop-up_p2 {
+    margin: 10px !important;
+}
+
+.box2 {
+    background-color: rgba(5, 73, 120, 0.85);
+    border: 5px solid rgba(5, 73, 120, 0.99);
+    border-radius: 100%;
+    -webkit-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.1) !important;
+    -moz-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.1) !important;
+    box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.1) !important;
+    height: 700px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 5% !important;
+    padding: 10px !important;
+    position: relative !important;
+    text-align: center !important;
+    width: 700px !important;
+}
+
+.box2 p {
+    color: #fff;
+    height: 180px;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+    width: 600px;
+}
+
+.box2 .view {
+    border: 5px solid #fff;
+    border-radius: 100% !important;
+    height: 300px;
+    width: 300px !important;
+    margin: 0 auto;
+}
+
+.box2 .view .mask,
+.view .content {
+    height: 300px !important;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 300px !important;
+    border-right: 100%;
+}
+
+.box2 .img_link {
+    border: none;
+    display: block;
+    height: 310px !important;
+    overflow: hidden;
+}
+
+.box2 .close-button {
+    background-color: #f57f21 !important;
+    border: 2px solid #fff !important;
+    border-radius: 50% !important;
+    color: white !important;
+    left: 227px !important;
+    margin-top: 38px !important;
+    padding: 6px 10px !important;
+    position: absolute !important;
+    transition: all 0.5s ease !important;
+    text-decoration: none !important;
+    z-index: 2;
+}
+
+.box2 .close-button:hover {
+    background-color: tomato !important;
+    color: #fff !important;
+}
+
+.title_popup2 {
+    text-align: center !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    color: #f57f21 !important;
+    background-color: transparent !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+}
+
+/***************** pop-up3 ********************/
+
+.pop-up_img3 span {
+    margin-top: 100px !important;
+}
+
+.pop-up_img3 span i {
+    font-size: 30px;
+}
+
+.pop-up_img3 {
+    padding: 10px !important;
+    margin: 16px 0 10px 0 !important;
+    height: 280px;
+    overflow: hidden !important;
+}
+
+.pop-up_img3 img {
+    width: 100% !important;
+}
+
+.pop-up_p3 {
+    margin-top: 25px !important;
+}
+
+.box3 {
+    background-color: whitesmoke !important;
+    text-align: justify !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 5% !important;
+    position: relative !important;
+    -webkit-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.1) !important;
+    -moz-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.1) !important;
+    box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.1) !important;
+    width: 50%;
+    padding: 20px !important;
+}
+
+/*.box3 .close-button {
+	background-color: #f57f21 !important;
+    color: white !important;
+    height: 47px;
+    left: 20px !important;
+    line-height: 47px;
+    padding: 0 20px !important;
+    position: absolute !important;
+    text-decoration: none !important;
+    transition: all 0.5s ease 0s !important;
+	
+    transition: all 0.5s ease!important;
+	text-decoration:none !important;
+}*/
+
+.box3 .close-button {
+    background-color: #f57f21 !important;
+    border: medium none !important;
+    border-radius: 0 !important;
+    color: white !important;
+    height: 47px;
+    left: 30px !important;
+    line-height: 47px;
+    margin-top: 0 !important;
+    padding: 0 20px !important;
+    position: absolute !important;
+    text-decoration: none !important;
+    transition: all 0.5s ease 0s !important;
+}
+
+.box3 .close-button:hover {
+    background-color: #053d64 !important;
+    color: #fff !important;
+}
+
+.title_popup3 {
+    text-align: center !important;
+    height: 47px;
+    overflow: hidden;
+    line-height: 47px;
+    color: #fff !important;
+    background-color: rgba(5, 73, 120, 0.95) !important;
+    font-size: 16px !important;
+    font-weight: bold !important;
+}
+
+.box3 .More a {
+    float: right !important;
+}

@@ -1,0 +1,117 @@
+body {}
+
+.AdminBannerTitle {
+    font-family: tahoma;
+    font-size: 9px;
+    font-weight: bold;
+    color: #286488;
+}
+
+.AdminFooterFont {
+    font-family: tahoma;
+    font-size: 13px;
+    font-weight: bold;
+    color: #0178B0;
+}
+
+.AdminPageTitle {
+    font-family: tahoma;
+    font-size: 16px;
+    font-weight: bold;
+    color: #0178B0;
+}
+
+.AdminSubTitle {
+    font-family: tahoma;
+    font-size: 14px;
+    font-weight: bold;
+    color: #3333CC;
+}
+
+.AdminSearchTitle {
+    font-family: tahoma;
+    font-size: 14px;
+    font-weight: bold;
+    color: #3333CC;
+}
+
+.AdminFormLabel {
+    font-family: tahoma;
+    font-size: 13px;
+    font-weight: normal;
+    color: #000000;
+}
+
+.AdminFormControl {
+    font-family: tahoma;
+    font-size: 13px;
+    font-weight: normal;
+    color: #000000;
+    border: 1px solid #3333CC;
+}
+
+.AdminThinBox {
+    border: 1px solid #3333CC;
+}
+
+.AdminButton {
+    background-color: #3333CC;
+    font-family: tahoma;
+    font-size: 13px;
+    color: #FFFFFF;
+    border: 1px solid #003399;
+}
+
+.AdminErrMsg {
+    font-family: Tahoma;
+    font-size: 10px;
+    color: #FF0000;
+}
+
+.AdminInfoMsg {
+    font-family: Tahoma;
+    font-size: 12px;
+    color: #008000;
+}
+
+.modalBackground {
+    background-color: Gray;
+    filter: alpha(opacity=70);
+    opacity: 0.7;
+}
+
+.AdminMenuItem {
+    font-family: tahoma;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+a.AdminMenuItem {
+    font-family: tahoma;
+    font-size: 13px;
+    text-decoration: none;
+    cursor: hand;
+}
+
+a.AdminMenuItem:link {
+    font-family: tahoma;
+    font-size: 13px;
+    text-decoration: none;
+    cursor: hand;
+}
+
+a.AdminMenuItem:active {
+    font-family: tahoma;
+    font-size: 13px;
+    text-decoration: none;
+    color: #0033CC;
+    cursor: hand;
+}
+
+a.AdminMenuItem:hover {
+    font-family: tahoma;
+    font-size: 13px;
+    text-decoration: none;
+    color: #0033CC;
+    cursor: hand;
+}
